@@ -1,0 +1,235 @@
+/* body styles */
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+/* All colerful text for site */
+.text-primary{
+    color: #E55473;
+}
+
+/* section style */
+
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* Header Styles */
+
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner{
+    padding: 25px 25px 0px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 600px;
+}
+
+.banner-title{
+    font-size: 60px;
+    color: #272727;
+    margin-bottom: 25px;
+} 
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 350;
+}
+.primary-btn {
+    border-radius: 6px;
+    background: #E55473;
+    color: white;
+    font-size: 20px;
+    padding: 15px 35px;
+}
+.banner-pic{
+    width: 600px;
+}
+
+/* Main Style */
+
+
+.flower{
+    margin: 100px 240px;
+}
+
+.flower-content{
+    display: flex;
+    gap: 25px;
+}
+
+.flower-feature{
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flower-pic1{
+    background: rgba(167, 33, 98, 0.15);
+
+}
+.flower-pic2{
+    background:rgba(5, 151, 160, 0.15);
+
+}
+.flower-pic3{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower-title{
+    color: #272727;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration-line: underline;
+}
+
+/* discount section */
+
+.container{
+    padding: 20px 200px 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+
+}
+
+
+.container-flower-pic {
+    width: 350px;
+}
+
+
+.container-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* instagram  */
+
+.instagram{
+    margin: 50px 200px;
+    }
+
+.instagram-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram-contant{
+
+    margin: 5px 50px 5px ;
+    padding-left: 20px;
+}
+
+.instagram-pic{
+    display: flex;
+    margin: 15px 20px;
+    padding: 10px;
+}
+
+
+/* discount  coupne content  */
+.discount{
+    border-radius: 8px;
+    height: 300px;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin: 50px 200px;
+ }
+
+ .discount-title{
+    color: #272727;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 100px;
+ }
+
+ .discount-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+ }
+
+ .discount-content{
+    width: 400px;
+    height: 60px;
+    margin-left: 250px;
+    align-items: center;
+ }
+
+
+ /* Bonus */
+
+ /*--------------------------
+    Blog Style 
+ ----------------------*/
+
+.blog{
+    display:flex;
+    margin-top: 195px;
+}
+.blog-info{
+   width: 40%;
+   margin-left: 5%;
+   
+}
+.blog-title{
+    color: #0A0826;
+    font-weight: 700px;
+    font-size: 48px;
+
+}
+.blog-paragraph{
+    color: #6C6C6C;
+    font-weight: 400px;
+    font-size: 16px;
+    margin-top: 8px;
+}
+.blog-author a{
+    text-decoration: none;
+    color: white;
+    background-color:#E02C6D;
+    margin-top: 265px;
+    Padding:20px, 24px, 20px, 24px;
+}
+.blog-info img{
+    width: 500px;
+    height: 400px;
+}
+/* footer section */
+
+.footer{
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+.footer h3{
+    margin-top: 50px;
+}
